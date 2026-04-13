@@ -141,7 +141,7 @@ https://www.sciencedirect.com/science/article/pii/S2666967626000012?utm_source=c
 
 ### ⚖️ 6. Paper vs Our Model
 
-| Aspect | Paper | Our Model |
+| Aspect | Paper |result on Our dataset  |
 |------|------|--------|
 | Dataset Size | Large | Moderate |
 | Accuracy | Higher | Slightly lower |
