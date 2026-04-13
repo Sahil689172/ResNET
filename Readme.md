@@ -27,7 +27,7 @@ https://www.sciencedirect.com/science/article/pii/S2666967626000012?utm_source=c
 | Component | Details |
 |----------|--------|
 | Model (Paper) | ResNet (ResNet-50 / ResNet-18) |
-| Model (Our Work) | ResNet50 (Pretrained CNN with Transfer Learning) |
+| Model (Our Work) trained on our dataset | ResNet50 (Pretrained CNN with Transfer Learning) |
 | Task | Multi-class Fatty Liver Severity Classification |
 | Input | Ultrasound Images |
 | Dataset | https://www.kaggle.com/datasets/orvile/annotated-ultrasound-liver-images-dataset |
@@ -61,7 +61,7 @@ https://www.sciencedirect.com/science/article/pii/S2666967626000012?utm_source=c
 
 ---
 
-### 🔹 Our Approach
+### 🔹 Our Approach(trained same model on our dataset)
 - Uses **ResNet50 (pretrained on ImageNet)**
 - Transfer learning applied
 - Final layer modified for 3-class classification
@@ -73,7 +73,7 @@ https://www.sciencedirect.com/science/article/pii/S2666967626000012?utm_source=c
 
 ### 🔥 Overall Performance
 
-| Metric | Paper (ResNet) | Our Model (ResNet50) |
+| Metric | Paper (ResNet) |On Our Dataset(ResNet50) |
 |------|---------------|--------------------|
 | Accuracy | 84–87% | **76%** |
 | Precision | ~90%+ | **0.78 (weighted)** |
